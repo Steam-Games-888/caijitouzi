@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.szczk.top/icon.php">
+    <meta name="description" content="菜鸡头子-官网" />
+    <meta name="keywords" content="菜鸡头子,官网,搜索,download,菜鸡头子官网" />
+    <meta name="baidu-site-verification" content="codeva-u0MbFzkRJ6" />
+    <title>菜鸡头子官网</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            background: url('https://img.meituan.net/video/cfbdebf3b0fc2a9273870a8b5df5a7612664823.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 15px;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        nav a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: #007bff;
+            transition: width 0.3s;
+        }
+        nav a:hover:after {
+            width: 100%;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .intro {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 20px auto;
+            display: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            color: #333;
+            line-height: 1.6;
+        }
+        button {
+            background: #007bff;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 25px;
+            box-shadow: 0 3px 10px rgba(0, 123, 255, 0.3);
+        }
+        button:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+        }
+        #footer {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            font-size: 14px;
+            color: white;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            color: #666;
+        }
+        .browser-tip {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .browser-tip-content {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                margin-top: 15px;
+            }
+            nav a {
+                margin: 5px 10px;
+                display: inline-block;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+            </style>
+<script type="text/javascript" src="//api.tongjiniao.com/c?_=726869088260644864" async></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="logo">菜鸡头子 主页</div>
+            <nav>
+                <a href="index.php">首页</a>
+                <a href="soft.php"></a>
+                <a href="blog.php"></a>
+                <a href="friends.php"></a>
+                <a href="fk.php"></a>
+                <a href="about.php">关于</a>
+            </nav>
+        </header>
+
+        <main id="home">
+            <h1>欢迎来到菜鸡头子的官网</h1>
+            <button onclick="toggleIntro()">了解更多</button>
+            <div class="intro" id="intro">
+                <p>这是菜鸡头子的个人主页，有我的个人介绍，也有我的游戏资源整合</p>
+                <p>欢迎你来到我的小破站，有任何建议欢迎提出</p>
+            </div>
+        </main>
+
+        <div id="footer">
+            <style>
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: color 0.3s;
+    position: relative;
+}
+nav a:hover {
+    color: #007bff;
+}
+nav a:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #007bff;
+    transition: width 0.3s;
+}
+nav a:hover:after {
+    width: 100%;
+}
+.friend-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.link-item {
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color: #333;
+    text-decoration: none;
+}
+.link-item img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.link-item h3 {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .logo {
+        font-size: 1.2em;
+    }
+    nav a {
+        margin-left: 15px;
+    }
+}
+</style>
+</head>
+<body>
+
+      <footer id="footera">
+            <div class="friend-links">
+                <a href="https://caigamer.com" class="link-item" target="_blank">
+                    <img src="https://caigamer.com/caigame.png" alt="菜玩社区">
+                    <h3>菜玩社区</h3>
+                </a>
+                <a href="https://steam-games-888.github.io/appstore.github.io/" class="link-item" target="_blank">
+                    <img src="https://img.meituan.net/video/d9c47001f10aa8346d85cbf17a95675e7578.png" alt="菜鸡软件商城">
+                    <h3>菜鸡软件商城</h3>
+                </a>
+                <a href="https://space.bilibili.com/3546775457630578" class="link-item" target="_blank">
+                    <img src="https://img0.baidu.com/it/u=2774706886,1907556937&fm=253&fmt=auto&app=138&f=JPEG?w=528&h=500" alt="我的B站主页">
+                    <h3>我的B站主页</h3>
+                </a>
+                <a href="https://z.ksmlc.cn/" class="link-item" target="_blank">
+                    <img src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_d1a0ad43eaac4006a212d68fb85adc2c~c5_300x300.jpeg?from=2956013662" alt="KS-MLC资源导航">
+                    <h3>KS-MLC资源导航</h3>
+                </a>
+                <a href="https://ikunshare.com/" class="link-item" target="_blank">
+                    <img src="https://img2.baidu.com/it/u=2649530582,2903283277&fm=253&fmt=auto&app=138&f=JPEG?w=811&h=800" alt="ikun游戏分享">
+                    <h3>ikun游戏分享</h3>
+                </a>
+                <a href="" class="link-item" target="_blank">
+                    <img src="" alt="">
+                    <h3></h3>
+                </a>
+            </div>
+            <p>&copy; 2024-2025 菜鸡头子官网                互联网新闻信息服务许可证11220180008</p>
+        </footer>
+    <script src="https://gapi.bmy114.com/static/js/chat-front.js"></script>
+    <script>
+        ROXCHAT.init({
+            ROXCHAT_URL:"https://gapi.bmy114.com/",
+            ROXCHAT_KEFU_ID: "Pg8eFVJlDFg+OyhEWyt7QlZfN1hWdAZDPHJfHH9SO04DbnELY04NAGJEUAxnWA8jeBsxDXFiKTZSHA==",
+            ROXCHAT_BTN_TEXT: "Welcome",
+            ROXCHAT_LANG:"cn",
+            CHAT_STYLEID: "874"
+        })
+    </script>
+</body>
+</html>        </div>
+    </div>
+
+    <script>
+        function toggleIntro() {
+            var intro = document.getElementById('intro');
+            if (intro.style.display === 'none' || intro.style.display === '') {
+                intro.style.display = 'block';
+            } else {
+                intro.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
